@@ -17,7 +17,7 @@ class EatDonut(smach.State):
     def execute(self, userdata):
         rospy.loginfo('Executing state EAT_DONUT')
 
-        if self.counter < 100:
+        if self.counter < 50:
             self.counter += 1
             sleep(2)
             return 'not_full'
