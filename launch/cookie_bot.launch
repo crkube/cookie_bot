@@ -1,4 +1,4 @@
 <launch>
     <node name="cookie_botSM2" pkg="cookie_bot" type="cookie_botSM2.py" output="screen"/>
-    <node name="cookie_botSM" pkg="cookie_bot" type="cookie_botSM.py" output="screen" />
+    <node name="donut_botSM" pkg="cookie_bot" type="donut_botSM.py" output="screen" />
 </launch>
