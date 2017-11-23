@@ -5,6 +5,9 @@ import smach
 import smach_ros
 from time import sleep
 
+# The donut eating robot version 2
+# this version eats only 50 donuts
+
 # define state EatDonut
 class EatDonut(smach.State):
     def __init__(self):
